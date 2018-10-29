@@ -1,0 +1,14 @@
+[
+    {
+        "customer_id": "aaaa-bbbb-cccc-dddd",
+        "customer_name": "Cliente 01",
+        "db_name": "db01",
+        "connection_name": "db01"
+    },
+    {
+        "customer_id": "dddd-cccc-bbbb-aaaa",
+        "customer_name": "Cliente 02",
+        "db_name": "db02",
+        "connection_name": "db02"
+    }
+]
