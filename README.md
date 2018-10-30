@@ -4,7 +4,7 @@ Um simples exemplo de múltiplas conexões utilizando [NodeJS](https://nodejs.or
 Nesse exemplo teremos uma base de dados onde vão estar as informações das conexões disponíveis, e para setar qual conexão vamos utilizar, passaremos um parâmetro via header chamado **customerid**.
 
 ## Iniciando o servidor
-Certifique-se de ter o [git](https://git-scm.com/), [NodeJS](https://nodejs.org/en/)e [MongoDB](https://www.mongodb.com/) instalados.
+Certifique-se de ter o [git](https://git-scm.com/), [NodeJS](https://nodejs.org/en/) e [MongoDB](https://www.mongodb.com/) instalados.
 
 1. Clone o repositório
 2. Após ter clonado, instale suas dependências utilizando o comando:
