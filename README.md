@@ -11,13 +11,13 @@ Certifique-se de ter o [git](https://git-scm.com/), [NodeJS](https://nodejs.org/
 
 ```sh
 npm install
-```sh
+```
 
 3. Instale o pacote nodemon globalmente utilizando o comando:
 
 ```sh
 npm install -g nodemon
-```sh
+```
 
 4. Inicie o projeto utilizando o comando:
 
