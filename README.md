@@ -9,15 +9,21 @@ Certifique-se de ter o [git](https://git-scm.com/), [NodeJS](https://nodejs.org/
 1. Clone o repositório
 2. Após ter clonado, instale suas dependências utilizando o comando:
 
-    `npm install`
+```sh
+npm install
+```sh
 
 3. Instale o pacote nodemon globalmente utilizando o comando:
 
-    `npm install -g nodemon`
+```sh
+npm install -g nodemon
+```sh
 
 4. Inicie o projeto utilizando o comando:
 
-    `npm start`
+```sh
+npm start
+```
 
 5. Seu servidor vai estar disponível no endereço http://localhost:3000
 
