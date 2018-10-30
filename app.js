@@ -7,11 +7,20 @@ let mongoose = require('mongoose');
 
 // cria um objeto de conexões com o banco
 process.connections = {};
-process.connections.master = mongoose.createConnection('mongodb://localhost/iv2-makeiteasy', { useNewUrlParser: true });
+process.connections.master = mongoose.createConnection('mongodb://localhost/dbmaster', { useNewUrlParser: true });
 
 let boardRouter = require('./api/v1/routes/BoardRoutes');
 
 let app = express();
+
+// Add headers
+app.use(function (req, res, next) {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+    res.setHeader('Access-Control-Allow-Headers', '*');
+    res.setHeader('Access-Control-Allow-Credentials', true);
+    next();
+});
 
 app.use(logger('dev'));
 app.use(express.json());
