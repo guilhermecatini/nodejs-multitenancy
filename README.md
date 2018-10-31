@@ -1,5 +1,5 @@
 # Exemplo de múltiplas conexões com NodeJS
-Um simples exemplo de múltiplas conexões utilizando [NodeJS](https://nodejs.org/en/) com [ExpressJS](https://expressjs.com/pt-br/) e [mongoose](https://mongoosejs.com/).
+> Um simples exemplo de múltiplas conexões utilizando [NodeJS](https://nodejs.org/en/) com [ExpressJS](https://expressjs.com/pt-br/) e [mongoose](https://mongoosejs.com/).
 
 Nesse exemplo teremos uma base de dados onde vão estar as informações das conexões disponíveis, e para setar qual conexão vamos utilizar, passaremos um parâmetro via header chamado **customerid**.
 
@@ -10,19 +10,19 @@ Certifique-se de ter o [git](https://git-scm.com/), [NodeJS](https://nodejs.org/
 2. Após ter clonado, instale suas dependências utilizando o comando:
 
 ```sh
-npm install
+$ npm install
 ```
 
 3. Instale o pacote nodemon globalmente utilizando o comando:
 
 ```sh
-npm install -g nodemon
+$ npm install -g nodemon
 ```
 
 4. Inicie o projeto utilizando o comando:
 
 ```sh
-npm start
+$ npm start
 ```
 
 5. Seu servidor vai estar disponível no endereço http://localhost:3000
